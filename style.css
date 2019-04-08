@@ -1,0 +1,100 @@
+body {
+    background-color: #232323;    
+    margin: 0;
+    font-family: 'Montserrat', sans-serif;
+}
+
+.square {
+    width: 30%;
+    background-color: purple;
+    padding-bottom: 30%;
+    float: left;
+    margin: 1.66%;
+    border-radius: 5%;
+    transition: background-color 0.5s
+}
+
+.square:hover {
+    transform: scale(1.1)
+}
+
+#container {
+    max-width: 600px;
+    margin: 20px auto;
+}
+
+.header {
+    color: azure;
+    text-align: center;
+    display: flex;
+    flex-direction: column;
+    background-color: steelblue;
+    padding: 20px 0px;
+    margin: 0;
+    width: 100%
+}
+
+#message {
+    color: black;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+#stripe {
+    background-color: white;
+    height: 40px;    
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    width: 100%;
+}
+
+#stripeInner {
+    width: 600px;
+    display: flex;
+    justify-content: space-evenly;
+    align-items: center;    
+}
+
+#reset {
+    border: none;
+    background-color: white;
+    padding: 0px 10px;
+    margin: 0px 5px;
+    height: -webkit-fill-available;
+    font-family: 'Montserrat', sans-serif;    ;
+    font-weight: bold;
+    text-transform: uppercase;
+    transition: all 0.8s;
+    float: left;
+    outline: none
+}
+
+#reset:hover {
+    background-color: steelblue;
+
+}
+
+#difficulty {
+    text-align: center;
+    border: none;
+    font-family: 'Montserrat', sans-serif;    
+    font-weight: bold;
+    margin: 0px 5px;
+    height: -webkit-fill-available;
+    text-transform: uppercase;
+    float: right;
+    outline: none;
+    transition: all 0.8s;
+}
+
+#difficulty:hover {
+    background-color: steelblue
+}
+
+#howTo {
+    text-align: center;
+    margin: 50px;
+    color: bisque
+}
